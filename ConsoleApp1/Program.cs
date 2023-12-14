@@ -11,7 +11,7 @@ class Program
         do
         {
             Console.WriteLine("Меню выбора:");
-            Console.WriteLine("5. Умножить A на B");
+            Console.WriteLine("6. Разделить A на B");
             Console.WriteLine("7. Выйти из программы");
 
             Console.Write("Введите номер операции: ");
@@ -20,8 +20,15 @@ class Program
 
             switch (choice)
             {
-                case '5':
-                    Console.WriteLine($"Произведение A и B = {a * b}");
+                case '6':
+                    if (b != 0)
+                    {
+                        Console.WriteLine($"Частное A и B = {a / b}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("На ноль делить нельзя!");
+                    }
                     break;
                 case '7':
                     Console.WriteLine("Программа завершена.");
