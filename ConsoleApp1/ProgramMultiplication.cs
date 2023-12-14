@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace LAB
+namespace LAB3
 {
-    class Program
+    public class ProgramMultiplication
     {
-
         public double Multiplication(double a, double b)
         {
             return a * b;
