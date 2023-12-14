@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace LAB
+namespace LAB4
 {
-    class Program
+    public class ProgramDivision
     {
-
         public double Division(double a, double b)
         {
             return a / b;
