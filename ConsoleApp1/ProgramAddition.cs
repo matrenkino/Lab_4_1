@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace LAB 
+namespace LAB1
 {
-    class Program
+    public class ProgramAddition
     {
-
         public double Addition (double a, double b)
 	    {
 	        return a + b;
