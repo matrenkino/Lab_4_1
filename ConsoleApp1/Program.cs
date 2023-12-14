@@ -11,8 +11,7 @@ class Program
         do
         {
             Console.WriteLine("Меню выбора:");
-            Console.WriteLine("1. Ввести A");
-            Console.WriteLine("2. Ввести B");
+            Console.WriteLine("3. Сложить A и B");
             Console.WriteLine("7. Выйти из программы");
 
             Console.Write("Введите номер операции: ");
@@ -21,15 +20,8 @@ class Program
 
             switch (choice)
             {
-                case '1':
-                    Console.Write("Введите значение A: ");
-                    a = double.Parse(Console.ReadLine());
-                    Console.WriteLine($"A = {a}");
-                    break;
-                case '2':
-                    Console.Write("Введите значение B: ");
-                    b = double.Parse(Console.ReadLine());
-                    Console.WriteLine($"B = {b}");
+                case '3':
+                    Console.WriteLine($"Сумма A и B = {a + b}");
                     break;
                 case '7':
                     Console.WriteLine("Программа завершена.");
