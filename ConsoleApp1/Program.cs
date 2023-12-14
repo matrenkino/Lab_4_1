@@ -6,7 +6,7 @@ using LAB4;
 
 namespace Calculator
 {
-    class Program
+    class ProgramCal
     {
         static void Main()
         {
