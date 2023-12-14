@@ -11,7 +11,7 @@ class Program
         do
         {
             Console.WriteLine("Меню выбора:");
-            Console.WriteLine("4. Вычесть B из A");
+            Console.WriteLine("5. Умножить A на B");
             Console.WriteLine("7. Выйти из программы");
 
             Console.Write("Введите номер операции: ");
@@ -20,8 +20,8 @@ class Program
 
             switch (choice)
             {
-                case '4':
-                    Console.WriteLine($"Разность A и B = {a - b}");
+                case '5':
+                    Console.WriteLine($"Произведение A и B = {a * b}");
                     break;
                 case '7':
                     Console.WriteLine("Программа завершена.");
