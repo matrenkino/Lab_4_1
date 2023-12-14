@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace LAB
+namespace LAB2
 {
-    class Program
+    public class ProgramSubtraction
     {
-
         public double Subtraction(double a, double b)
         {
             return a - b;
