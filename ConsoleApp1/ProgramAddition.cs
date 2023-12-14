@@ -1,13 +1,14 @@
 ﻿using System;
-namespace LAB {
-class Program
+
+namespace LAB 
 {
-    static void Main()
+    class Program
     {
+
         public double Addition (double a, double b)
-	{
-		return a + b;
-	}
+	    {
+	        return a + b;
+	    }
     }
 }
-}
+
